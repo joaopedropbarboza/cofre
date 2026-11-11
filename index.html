@@ -15,6 +15,16 @@
   </header>
 
   <main>
+    <section class="ferramenta">
+      <h2>Essa senha já vazou?</h2>
+      <p class="explica">Calcula o SHA-1 da senha aqui no navegador e envia à API só os 5 primeiros caracteres do hash (k-anonimato). Use uma senha de exemplo.</p>
+      <input id="vazou-senha" type="password" placeholder="Digite uma senha de exemplo" autocomplete="off">
+      <button id="vazou-botao" type="button">Verificar</button>
+      <p id="vazou-resultado" class="resultado"></p>
+      <p id="vazou-detalhe" class="explica"></p>
+    </section>
+    <script src="vazou.js"></script>
+
     <!-- FERRAMENTAS: cole cada trecho novo logo ACIMA desta linha -->
   </main>
 
