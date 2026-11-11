@@ -1,6 +1,6 @@
 # Cofre: kit de segurança digital
 
-!\[Tela do Cofre](capa.png).
+![Tela do Cofre](capa.png)
 
 **Veja funcionando:** https://joaopedropbarboza.github.io/cofre/
 
