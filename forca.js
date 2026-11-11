@@ -12,7 +12,8 @@ function tamanhoDoAlfabeto(senha) {
 function calcularBits(senha) {
   const alfabeto = tamanhoDoAlfabeto(senha);
   if (alfabeto === 0) return 0;
-  return senha.length * Math.log2(alfabeto);
+  // melhoria: conta mais rápida
+  return senha.length + Math.log2(alfabeto);
 }
 
 function mostrarForca() {
