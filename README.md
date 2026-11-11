@@ -12,7 +12,7 @@ O Cofre e um site com ferramentas para aprender sobre segurança de senhas.Ele c
 
 * **Essa senha já vazou?** Consulta uma base real de senhas vazadas sem enviar a senha (k-anonimato).
 * **Quantos bits tem essa senha?** Estima a força da senha.
-* **NOME DA SUA FERRAMENTA:** o que ela faz.
+* Gerador de senhas: cria uma senha aleatória no navegador com o tamanho escolhido, entre 8 e 32 caracteres.
 
 ## O que eu aprendi
 
@@ -31,5 +31,5 @@ O histórico tem um arquivo `.env` com uma senha falsa, de propósito: foi um ex
 ## Créditos
 
 Código-base do Prof. Mario Rebello, na disciplina Introdução à Ciência da Computação (2026/2).
-A ferramenta NOME DA SUA FERRAMENTA é de minha autoria. Licença MIT.
+A ferramenta Gerador de senhas. é de minha autoria. Licença MIT.
 
